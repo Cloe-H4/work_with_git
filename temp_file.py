@@ -3,7 +3,7 @@ import logging
 from sqlalchemy import create_engine, text
 from dotenv import load_dotenv
 
-# Setup logging
+# Setting up logging
 os.makedirs("logs", exist_ok=True)
 logging.basicConfig(
     filename=os.path.join("logs", "warehouse.log"),
