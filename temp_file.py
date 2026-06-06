@@ -13,7 +13,7 @@ logging.basicConfig(
 )
 logging.info("========== WAREHOUSE PIPELINE STARTED ==========")
 
-# Simple function to load sql files and execute them
+# Executing SQL files to build the warehouse
 def run_sql_file(filepath):
     logging.info(f"Running {filepath}")
     with open(filepath, 'r') as file:
