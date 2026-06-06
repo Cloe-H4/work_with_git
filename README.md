@@ -2,7 +2,7 @@
 
 This repository was created primarily as a hands-on space to learn and practice Git and GitHub workflows.
 
-It contains experiments, small test files, and command practice sessions used to understand version control concepts step by step.
+It contains important and simple git and github experiments.
 
 ---
 
